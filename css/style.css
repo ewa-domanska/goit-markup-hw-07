@@ -53,7 +53,7 @@ img {
 }
 
 /* ======COMPONENTS====== */
-.modal-btn {
+.banner-content__btn {
     cursor: pointer;
     background-color: var(--secondary-color);
     width: 200px;
@@ -206,7 +206,7 @@ img {
     align-items: center;
 }
 
-.main-title {
+.banner-content__title {
     height: 120px;
     margin-bottom: 30px;
 
