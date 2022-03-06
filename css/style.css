@@ -221,7 +221,7 @@ img {
     color: #FFFFFF;
 }
 
-.icon-wrapper {
+.box-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -231,11 +231,11 @@ img {
     margin-bottom: 30px;
 }
 
-.boxes-icons {
+.box-icon--color {
     color: black;
 }
 
-.boxes-text-header {
+.box-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.142;
@@ -243,7 +243,7 @@ img {
     text-transform: uppercase;
 }
 
-.boxes-text-header-description {
+.box-description {
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
