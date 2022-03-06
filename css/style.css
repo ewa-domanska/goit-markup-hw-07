@@ -85,7 +85,6 @@ img {
 }
 
 
-
 .navigation-list__item:not(:last-child) {
     margin-right: 46px;
 }
@@ -127,7 +126,7 @@ img {
     padding-bottom: 25px;
 }
 
-.website-logo--color{
+.website-logo--color {
     font-family: var(--secondary-font);
     color: var(--secondary-color);
     padding-bottom: 20px;
@@ -366,11 +365,11 @@ img {
     color: var(--social-color);
 }
 
-.social-icon-footer {
+.footer-social-link__icon {
     color: #FFF;
 }
 
-.social-list-item {
+.social-list__item {
     margin-right: 10px;
 }
 
@@ -390,22 +389,22 @@ img {
 
 
 /* ======FOOTER====== */
-.address-background {
+.footer-background {
     background-color: var(--footer-color);
     display: flex;
 }
 
-.address-wrapper {
+.footer-wrapper {
     padding-top: 60px;
     padding-bottom: 60px;
     display: flex;
 }
 
-.join-us-wrapper {
+.join-us {
     margin-left: 70px;
 }
 
-.join-us {
+.join-us__title {
     text-transform: uppercase;
     margin-bottom: 20px;
     padding-top: 44px;
@@ -417,13 +416,19 @@ img {
     letter-spacing: 0.03em;
 }
 
-.studio-color-small {
+.footer-logo {
     font-family: var(--secondary-font);
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #FFFFFF;
+}
+
+.footer-logo--color {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    padding-bottom: 20px;
 }
 
 .address-list {
@@ -434,16 +439,19 @@ img {
     margin-bottom: 20px;
 }
 
-.address-list-item {
+.address-list__item {
     font-size: 14px;
     line-height: 1.6;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
-    text-decoration: none;
     padding-bottom: 9px;
 }
 
-.address-list-item-data {
+.web-studio-address {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-contact-link {
     font-size: 14px;
     line-height: 1.714;
     text-decoration: none;
@@ -451,11 +459,11 @@ img {
     color: #FFFFFF99;
 }
 
-.address-list-item-data:hover {
+.footer-contact-link:hover {
     color: var(--secondary-color);
 }
 
-.background-icons-footer {
+.footer-social-link {
     display: flex;
     width: 44px;
     height: 44px;
@@ -465,8 +473,8 @@ img {
     background: rgba(255, 255, 255, 0.1);
 }
 
-.background-icons-footer:hover,
-.background-icons-footer:focus {
+.footer-social-link:hover,
+.footer-social-link:focus {
     background-color: var(--secondary-color);
     transition-property: background-color;
     transition-duration: 250ms;
@@ -485,7 +493,7 @@ img {
     letter-spacing: 0.03em;
 }
 
-.newsletter-form-title {
+.newsletter-form__title {
     margin-bottom: 20px;
 }
 
@@ -498,7 +506,7 @@ img {
     padding-left: 16px;
 }
 
-.newsletter {
+.newsletter-form__label {
     display: inline;
 }
 
