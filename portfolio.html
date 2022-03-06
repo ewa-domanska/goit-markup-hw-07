@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>goit-markup-hw-06</title>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+          integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,900;1,700&display=swap"
+          rel="stylesheet"/>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <a class="studio-color" href="/goit-markup-hw-06/index.html">
+            <span class="web-color">Web</span>Studio
+        </a>
+        <nav class="navigation">
+            <ul class="navigation-list list">
+                <li class="navigation-link">
+                    <a class="navigation-list-menu link effects-transition"
+                       href="/goit-markup-hw-06/index.html">Agencja</a>
+                </li>
+                <li class="navigation-link portfolio-underline">
+                    <a class="navigation-list-menu link effects-transition" href="/goit-markup-hw-06/portfolio.html">Portfolio</a>
+                </li>
+                <li class="navigation-link ">
+                    <a class="navigation-list-menu link effects-transition" href="#kontakt">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="navigation-data list">
+            <li>
+                <div class="contact-items">
+                    <svg class="boxes-icons-data" width="16px" height="12px">
+                        <use href="images/icons.svg#icon-envelope">
+                        </use>
+                    </svg>
+                    <a class="contact-data link" href="tel:+48111111111">+48 111 111 111</a>
+                </div>
+            </li>
+            <li>
+                <div class="contact-items">
+                    <svg class="boxes-icons-data" width="10px" height="16px">
+                        <use href="images/icons.svg#icon-smartphone">
+                        </use>
+                    </svg>
+                    <a class="contact-data link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</header>
+
+
+<main class="section">
+    <div class="container">
+        <ul class="filter list">
+            <li>
+                <button class="modal-btn-filter" type="button">Wszystkie</button>
+            </li>
+            <li>
+                <button class="modal-btn-filter" type="button">Strony</button>
+            </li>
+            <li>
+                <button class="modal-btn-filter" type="button">Aplikacje</button>
+            </li>
+            <li>
+                <button class="modal-btn-filter" type="button">Dizajn</button>
+            </li>
+            <li>
+                <button class="modal-btn-filter" type="button">Marketing</button>
+            </li>
+        </ul>
+    </div>
+    <div class="projects container">
+        <ul class="projects-portfolio list">
+            <li class="projects-portfolio-list">
+                <div class="img-box">
+                    <img src="images/Portfolio/technocrack.jpg" alt="Our people"/>
+                    <div class="slide-up">
+                        <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy
+                            wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery
+                            konkurencji</p>
+                    </div>
+                </div>
+                <h3 class="projects-portfolio-name">Technorack</h3>
+                <p class="projects-portfolio-name-description">Strona internetowa</p>
+            </li>
+            <li class="projects-portfolio-list">
+                <div class="img-box">
+                    <img src="images/Portfolio/NewOrlean_vs_GoldenStars.jpg" alt="Our people"/>
+                    <div class="slide-up">
+                        <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy
+                            wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery
+                            konkurencji</p>
+                    </div>
+                </div>
+                <h3 class="projects-portfolio-name">New Orlean vs Golden Stars</h3>
+                <p class="projects-portfolio-name-description">Dizajn</p>
+            </li>
+            <li class="projects-portfolio-list">
+                <div class="img-box">
+                    <img src="images/Portfolio/restaurant.jpg" alt="Restaurant"/>
+                    <div class="slide-up">
+                        <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy
+                            wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery
+                            konkurencji</p>
+                    </div>
+                </div>
+                <h3 class="projects-portfolio-name">Restauracja Seafood</h3>
+                <p class="projects-portfolio-name-description">Aplikacja</p>
+            </li>
+            <li class="projects-portfolio-list">
+                <div class="img-box">
+                    <img src="images/Portfolio/project_pime.jpg" alt="Headphones"/>
+                    <div class="slide-up">
+                        <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy
+                            wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery
+                            konkurencji</p>
+                    </div>
+                </div>
+                <h3 class="projects-portfolio-name">Projekt Prime</h3>
+                <p class="projects-portfolio-name-description">Marketing</p>
+            </li>
+            <li class="projects-portfolio-list">
+                <div class="img-box">
+                    <img src="images/Portfolio/project_box.jpg" alt="Boxes"/>
+                    <div class="slide-up">
+                        <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy
+                            wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery
+                            konkurencji</p>
+                    </div>
+                </div>
+                <h3 class="projects-portfolio-name">Projekt Boxes</h3>
+                <p class="projects-portfolio-name-description">Aplikacja</p>
+            </li>
+            <li class="projects-portfolio-list">
+                <div class="img-box">
+                    <img src="images/Portfolio/inspiration.jpg" alt="desktop mockup"/>
+                    <div class="slide-up">
+                        <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy
+                            wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery
+                            konkurencji</p>
+                    </div>
+                </div>
+                <h3 class="projects-portfolio-name">Inspiration has no Borders</h3>
+                <p class="projects-portfolio-name-description">Strona internetowa</p>
+            </li>
+            <li class="projects-portfolio-list">
+                <div class="img-box">
+                    <img src="images/Portfolio/magazine.jpg" alt="Magazyn Limited Edition"/>
+                    <div class="slide-up">
+                        <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy
+                            wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery
+                            konkurencji</p>
+                    </div>
+                </div>
+                <h3 class="projects-portfolio-name">Magazyn Limited Edition</h3>
+                <p class="projects-portfolio-name-description">Dizajn</p>
+            </li>
+            <li class="projects-portfolio-list">
+                <div class="img-box">
+                    <img src="images/Portfolio/project_lab.jpg" alt="Lab project"/>
+                    <div class="slide-up">
+                        <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy
+                            wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery
+                            konkurencji</p>
+                    </div>
+                </div>
+                <h3 class="projects-portfolio-name">Projekt LAB</h3>
+                <p class="projects-portfolio-name-description">Marketing</p>
+            </li>
+            <li class="projects-portfolio-list">
+                <div class="img-box">
+                    <img src="images/Portfolio/growing_business.jpg" alt="Work on the desktop"/>
+                    <div class="slide-up">
+                        <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy
+                            wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery
+                            konkurencji</p>
+                    </div>
+                </div>
+                <h3 class="projects-portfolio-name">Growing Business</h3>
+                <p class="projects-portfolio-name-description">Aplikacja</p>
+            </li>
+        </ul>
+    </div>
+</main>
+
+<div id="kontakt"></div>
+<footer class="address-background">
+    <div class="container">
+        <address class="address-wrapper">
+            <ul class="address-list list">
+                <li class="address-list-item">
+                    <a class="studio-color-small" href="/goit-markup-hw-06/index.html">
+                        <span class="web-color">Web</span>Studio</a>
+                <li class="address-list-item">
+                    <a class="address-list-item" href="https://goo.gl/maps/2o7QPABCCGjatTRK9"
+                       target="_blank">m. Warszawa, Aleje Jerozolimskie 21</a>
+                </li>
+                <li class="address-list-item">
+                    <a class="address-list-item-data effects-transition"
+                       href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="address-list-item">
+                    <a class="address-list-item-data effects-transition" href="tel:+48111111111">+48 111 111 111</a>
+                </li>
+            </ul>
+            <div class="join-us-wrapper">
+                <p class="join-us">Dołącz do nas</p>
+                <ul class="social-list list">
+                    <li class="social-list-item link">
+                        <a class="background-icons-footer" href="#">
+                            <svg class="social-icon-footer" width="20px" height="20px">
+                                <use href="images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item link">
+                        <a class="background-icons-footer" href="#">
+                            <svg class="social-icon-footer" width="20px" height="20px">
+                                <use href="images/icons.svg#icon-twitter">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item link">
+                        <a class="background-icons-footer" href="#">
+                            <svg class="social-icon-footer" width="20px" height="20px">
+                                <use href="images/icons.svg#icon-facebook">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item link">
+                        <a class="background-icons-footer" href="#">
+                            <svg class="social-icon-footer" width="20px" height="20px">
+                                <use href="images/icons.svg#icon-linkedin">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="newsletter-form">
+                <p class="newsletter-form-title"> ZAPISZ SIĘ DO NEWSLETTERA </p>
+                <label class="newsletter">
+                    <input type="email" name="email" class="input-email" placeholder="E-mail"/>
+                    <button type="submit" class="modal-btn join-modal-button">Zapisz się</button>
+                </label>
+            </div>
+        </address>
+    </div>
+</footer>
+</body>
+</html>
+
