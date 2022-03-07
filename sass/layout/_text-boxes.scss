@@ -1,4 +1,4 @@
-.box-icon {
+.boxes__box-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,11 +8,11 @@
   margin-bottom: 30px;
 }
 
-.box-icon--color {
+.boxes__box-icon--color {
   color: black;
 }
 
-.box-title {
+.boxes__box-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
@@ -20,7 +20,7 @@
   text-transform: uppercase;
 }
 
-.box-description {
+.boxes__box-description {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;

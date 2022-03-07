@@ -44,12 +44,12 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-.portfolio-image-box {
+.projects-portfolio__image-box {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio-image-box__slide-up {
+.projects-portfolio__slide-up {
   bottom: -100%;
   position: absolute;
   background: #2196F3;
@@ -65,7 +65,7 @@
   margin: 0 10px 30px;
   border: 1px solid #EEEEEE;
 
-  &:hover .portfolio-image-box__slide-up {
+  &:hover .projects-portfolio__slide-up {
     bottom: 0;
     height: 100%;
     transition-property: bottom;
@@ -78,7 +78,7 @@
   }
 }
 
-.portfolio-name {
+.projects-portfolio__name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -87,7 +87,7 @@
   margin-top: 20px;
 }
 
-.portfolio-description {
+.projects-portfolio__description {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;

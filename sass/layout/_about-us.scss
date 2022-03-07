@@ -18,15 +18,15 @@
   list-style: none;
 }
 
-.picture-item:not(:last-child) {
+.pictures__picture-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.thumb {
+.pictures__thumb {
   position: relative;
   overflow: hidden;
 
-  & > .label {
+  & > .pictures__label {
     position: absolute;
     width: 370px;
     height: 70px;
