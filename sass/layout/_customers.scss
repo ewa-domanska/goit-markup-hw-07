@@ -1,4 +1,3 @@
-
 .customers {
   display: flex;
   flex-direction: row;
@@ -20,20 +19,20 @@
   align-items: center;
   justify-content: center;
   color: #AFB1B8;
-}
 
-.customers__item--border:hover > .customers-link {
-  color: var(--secondary-color);
-  cursor: pointer;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+  &:hover > .customers-link {
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
-.customers__item--border:hover {
-  border-color: var(--secondary-color);
-  cursor: pointer;
-  transition-property: border-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    border-color: var(--secondary-color);
+    cursor: pointer;
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }

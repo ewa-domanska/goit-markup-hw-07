@@ -42,10 +42,10 @@
 
 .address-list {
   font-style: normal;
-}
 
-.address-list li:first-child {
-  margin-bottom: 20px;
+  & li:first-child {
+    margin-bottom: 20px;
+  }
 }
 
 .address-list__item {
@@ -66,10 +66,10 @@
   text-decoration: none;
   letter-spacing: 0.03em;
   color: #FFFFFF99;
-}
 
-.footer-contact-link:hover {
-  color: var(--secondary-color);
+  &:hover {
+    color: var(--secondary-color);
+  }
 }
 
 .footer-social-link {
@@ -80,14 +80,14 @@
   align-items: center;
   justify-content: center;
   background: rgba(255, 255, 255, 0.1);
-}
 
-.footer-social-link:hover,
-.footer-social-link:focus {
-  background-color: var(--secondary-color);
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--secondary-color);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .newsletter-form {

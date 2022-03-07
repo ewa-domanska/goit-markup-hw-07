@@ -7,7 +7,6 @@
   align-items: center;
 }
 
-
 .navigation-list__item:not(:last-child) {
   margin-right: 46px;
 }
@@ -17,7 +16,6 @@
   align-items: center;
   position: relative;
 }
-
 
 .website-logo {
   text-decoration: none;
@@ -43,16 +41,17 @@
   letter-spacing: 0.02em;
   color: var(--main-color);
   text-decoration: none;
-}
 
-.navigation-list-menu--state:hover,
-.navigation-list-menu--state:focus {
-  color: var(--secondary-color);
+  &:hover,
+  &:focus {
+    color: var(--secondary-color);
+  }
 }
 
 .header-contact-data {
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 
 .header-contact-data__item:hover > * {
@@ -60,8 +59,4 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header .header-contact-data {
-  margin-left: auto;
 }

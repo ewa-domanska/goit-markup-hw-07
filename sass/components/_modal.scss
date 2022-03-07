@@ -39,15 +39,11 @@
 
 .signup-form {
   display: block;
-}
 
-.signup-form input,
-.signup-form textarea {
-  margin-top: 4px;
-}
-
-.field-wrapper {
-  margin-top: 10px;
+  & input,
+  & textarea {
+    margin-top: 4px;
+  }
 }
 
 .modal-feedback {
@@ -61,12 +57,16 @@ label {
   color: #757575;
 }
 
-.field-wrapper:hover,
-.field-wrapper:focus {
-  color: var(--secondary-color);
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.field-wrapper {
+  margin-top: 10px;
+
+  &:hover,
+  &:focus {
+    color: var(--secondary-color);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .modal-form {
@@ -101,12 +101,12 @@ label:focus > .icon-input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   padding: 14px 14px 14px 42px;
   outline: none;
-}
 
-.modal-inputs:focus,
-.modal-inputs:hover {
-  border: 1px solid;
-  border-color: var(--secondary-color);
+  &:focus,
+  &:hover {
+    border: 1px solid;
+    border-color: var(--secondary-color);
+  }
 }
 
 .modal-feedback {
@@ -117,13 +117,13 @@ label:focus > .icon-input {
   margin-bottom: 20px;
   outline: none;
   resize: none;
-}
 
-.modal-feedback:hover,
-.modal-feedback:focus {
-  border: 1px solid;
-  border-color: var(--secondary-color);
-  outline: none;
+  &:hover,
+  &:focus {
+    border: 1px solid;
+    border-color: var(--secondary-color);
+    outline: none;
+  }
 }
 
 .checkbox-wrapper {
@@ -136,15 +136,15 @@ label:focus > .icon-input {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-}
 
-.modal-checkbox-policy-text::before {
-  display: inline-block;
-  content: "";
-  width: 16px;
-  height: 16px;
-  outline: 1px solid var(--main-color);
-  border-radius: 2px;
+  &::before {
+    display: inline-block;
+    content: "";
+    width: 16px;
+    height: 16px;
+    outline: 1px solid var(--main-color);
+    border-radius: 2px;
+  }
 }
 
 .modal-checkbox-policy:checked + .modal-checkbox-policy-text::before {

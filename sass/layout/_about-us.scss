@@ -1,9 +1,6 @@
-.container .boxes {
+.boxes {
   display: flex;
   list-style: none;
-}
-
-.boxes {
   margin-bottom: 94px;
 }
 
@@ -28,18 +25,18 @@
 .thumb {
   position: relative;
   overflow: hidden;
-}
 
-.thumb > .label {
-  position: absolute;
-  width: 370px;
-  height: 70px;
-  top: 224px;
-  margin: 0;
-  background: rgba(47, 48, 58, 0.8);
+  & > .label {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    top: 224px;
+    margin: 0;
+    background: rgba(47, 48, 58, 0.8);
 
-  color: #FFFFFF;
-  letter-spacing: 0.03em;
-  text-align: center;
-  padding-top: 27px;
+    color: #FFFFFF;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-top: 27px;
+  }
 }
