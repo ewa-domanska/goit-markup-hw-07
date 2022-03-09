@@ -246,7 +246,7 @@ label:focus > .modal-inputs__icon-input {
   vertical-align: top;
 }
 
-.button-content {
+.banner-content__btn-content {
   float: left;
   padding-left: 36px;
 }
@@ -272,7 +272,7 @@ label:focus > .modal-inputs__icon-input {
   color: var(--social-color);
 }
 
-.footer-social-link__icon {
+.social-list__item-icon {
   color: #FFF;
 }
 
@@ -388,7 +388,7 @@ label:focus > .modal-inputs__icon-input {
 }
 
 .header-contact-data__contact-link:hover,
-.navigation-list-menu--state:focus {
+.navigation-list__menu--state:focus {
   color: var(--secondary-color);
 }
 
@@ -414,7 +414,7 @@ label:focus > .modal-inputs__icon-input {
   justify-content: center;
   color: #AFB1B8;
 }
-.customers__item--border:hover > .customers-link {
+.customers__item--border:hover > .customers__link-icon {
   color: var(--secondary-color);
   cursor: pointer;
   transition-property: color;
@@ -501,7 +501,7 @@ label:focus > .modal-inputs__icon-input {
   color: var(--secondary-color);
 }
 
-.footer-social-link {
+.social-list__item-link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -510,7 +510,7 @@ label:focus > .modal-inputs__icon-input {
   justify-content: center;
   background: rgba(255, 255, 255, 0.1);
 }
-.footer-social-link:hover, .footer-social-link:focus {
+.social-list__item-link:hover, .social-list__item-link:focus {
   background-color: var(--secondary-color);
   transition-property: background-color;
   transition-duration: 250ms;
@@ -582,7 +582,7 @@ label:focus > .modal-inputs__icon-input {
   padding-bottom: 20px;
 }
 
-.navigation-list-menu--state {
+.navigation-list__menu--state {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -590,7 +590,7 @@ label:focus > .modal-inputs__icon-input {
   color: var(--main-color);
   text-decoration: none;
 }
-.navigation-list-menu--state:hover, .navigation-list-menu--state:focus {
+.navigation-list__menu--state:hover, .navigation-list__menu--state:focus {
   color: var(--secondary-color);
 }
 
@@ -652,7 +652,7 @@ label:focus > .modal-inputs__icon-input {
   margin-right: 30px;
 }
 
-.box-background {
+.our-team__background {
   background-color: var(--third-color);
   padding-top: 30px;
 }
@@ -662,7 +662,7 @@ label:focus > .modal-inputs__icon-input {
   width: 270px;
 }
 
-.box__header-name {
+.our-team__header-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
@@ -670,7 +670,7 @@ label:focus > .modal-inputs__icon-input {
   letter-spacing: 0.03em;
 }
 
-.box__header-position {
+.our-team__header-position {
   line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;

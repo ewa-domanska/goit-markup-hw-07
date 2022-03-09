@@ -20,7 +20,7 @@
   justify-content: center;
   color: #AFB1B8;
 
-  &:hover > .customers-link {
+  &:hover > .customers__link-icon {
     color: var(--secondary-color);
     cursor: pointer;
     transition-property: color;
